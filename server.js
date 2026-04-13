@@ -40,6 +40,14 @@ app.use((req, res, next) => {
 
 app.use(express.json());
 
+app.get("/", (req, res) => {
+  res.status(200).json({
+    message: "Welcome to the backend API!",
+    health: "/health",
+    api: "/api"
+  });
+});
+
 app.get("/health", (req, res) => {
   res.status(200).json({
     status: "ok",
