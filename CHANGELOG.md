@@ -1,3 +1,16 @@
+## What's new — April 20, 2026
+
+### New features
+- A new login API was added to enhance the backend functionality.
+ 
+### Bug fixes
+- CORS issues for login were resolved to improve the overall user experience.
+
+### Improvements
+- The project was switched to use npm relevant files for better dependency management.
+
+---
+
 ## v1.0.1 — April 20, 2026
 
 ### New features
